@@ -101,6 +101,9 @@ main {
             color: var(--color-pink);
           }
         }
+        & summary::-webkit-details-marker {
+          display: none;
+        }
 
         & summary::after {
           content: "";
