@@ -67,7 +67,7 @@ main {
       position: relative;
       font-variation-settings: "wght" var(--fw-bold);
       font-size: 2rem;
-      line-height: 1;
+      line-height: 1.2;
       padding-left: calc(1.5rem + var(--icon-size));
       &::before {
         content: "";
@@ -95,7 +95,7 @@ main {
           font-size: 1rem;
           cursor: pointer;
           line-height: 1.2;
-          padding-right: calc(1.5rem + var(--icon-size));
+          padding-right: calc(1rem + var(--icon-size));
 
           &:hover {
             color: var(--color-pink);
@@ -130,6 +130,7 @@ main {
         height: 1px;
         background-color: var(--color-light-pink);
         border: none;
+        margin: 0;
       }
     }
   }
@@ -163,7 +164,7 @@ main {
         & details {
           & summary {
             font-size: 1.125rem; /* 18px */
-            padding-right: calc(2.5625rem + var(--icon-size));
+            line-height: 1.65;
           }
           & p {
             font-size: 1rem; /* 16px */
